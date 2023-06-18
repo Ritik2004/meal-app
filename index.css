@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: url('./images/bg.avif') no-repeat center fixed;     
+    background-size: cover;
+}
+
+#heading {
+    margin-top: 100px;
+}
+#heading h1{
+ color: white;
+}
+
+#heading-text h5{
+    color: white;
+   }
+#nav{
+    background-color: grey;
+   }
+ .navbar-comp{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    font-size: larger;
+    
+ }  
+ #search-bar {
+    max-width: 600px;
+}
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+#card {
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    
+}
+
+#card img {
+    border-radius: 50%;
+}
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:yellowgreen ;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+#favourites-body{
+    background-color: yellowgreen  ;
+}
+.text{
+    color: white;
+}
+.offcanvas-header{
+    background-color: darkgreen; 
+}
